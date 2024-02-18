@@ -1,4 +1,4 @@
-# Java 21 CLI Pico Aarchetype
+# Java 21 CLI Pico Archetype
 
 ## Intro
 
