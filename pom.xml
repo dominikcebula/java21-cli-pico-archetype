@@ -3,20 +3,20 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.dominikcebula.archetypes</groupId>
-    <artifactId>java17-cli-pico-archetype</artifactId>
-    <version>1.1-SNAPSHOT</version>
+    <artifactId>java21-cli-pico-archetype</artifactId>
+    <version>1.0-SNAPSHOT</version>
     <packaging>maven-archetype</packaging>
 
-    <name>java17-cli-pico-archetype</name>
-    <description>A Java 17 CLI Archetype that can be used to generate CLI Java 17 project that uses picocli for command
+    <name>java21-cli-pico-archetype</name>
+    <description>A Java 21 CLI Archetype that can be used to generate CLI Java 21 project that uses picocli for command
         line parsing.
     </description>
-    <url>https://github.com/dominikcebula/java17-cli-pico-archetype</url>
+    <url>https://github.com/dominikcebula/java21-cli-pico-archetype</url>
 
     <licenses>
         <license>
             <name>MIT License</name>
-            <url>https://github.com/dominikcebula/java17-cli-pico-archetype/blob/main/LICENSE</url>
+            <url>https://github.com/dominikcebula/java21-cli-pico-archetype/blob/main/LICENSE</url>
             <distribution>repo</distribution>
         </license>
     </licenses>
@@ -30,16 +30,16 @@
     </developers>
 
     <scm>
-        <connection>scm:git:https://github.com/dominikcebula/java17-cli-pico-archetype.git</connection>
-        <developerConnection>scm:git:https://github.com/dominikcebula/java17-cli-pico-archetype.git
+        <connection>scm:git:https://github.com/dominikcebula/java21-cli-pico-archetype.git</connection>
+        <developerConnection>scm:git:https://github.com/dominikcebula/java21-cli-pico-archetype.git
         </developerConnection>
-        <url>https://github.com/dominikcebula/java17-cli-pico-archetype</url>
+        <url>https://github.com/dominikcebula/java21-cli-pico-archetype</url>
         <tag>HEAD</tag>
     </scm>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <java.version>17</java.version>
+        <java.version>21</java.version>
         <maven.compiler.source>${java.version}</maven.compiler.source>
         <maven.compiler.target>${java.version}</maven.compiler.target>
     </properties>

@@ -1,8 +1,8 @@
-# Java17 CLI Pico Aarchetype
+# Java 21 CLI Pico Aarchetype
 
 ## Intro
 
-This repository contains a Maven Archetype that can be used to generate a CLI Java 17 project that uses picocli for command line parsing.
+This repository contains a Maven Archetype that can be used to generate a CLI Java 21 project that uses picocli for command line parsing.
 
 Included example code will create an application with the following command line interface:
 ```
@@ -20,7 +20,7 @@ Commands:
 
 Invoke command:
 ```
-mvn archetype:generate -DarchetypeGroupId=com.dominikcebula.archetypes -DarchetypeArtifactId=java17-cli-pico-archetype
+mvn archetype:generate -DarchetypeGroupId=com.dominikcebula.archetypes -DarchetypeArtifactId=java21-cli-pico-archetype
 ```
 
 Maven Archetype will ask about `groupId`, `artifactId`, `version`, `package name` and will generate a project skeleton.
